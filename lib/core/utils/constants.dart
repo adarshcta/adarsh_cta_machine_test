@@ -11,8 +11,8 @@ class AppColors {
 }
 
 class AppAssets {
-  static const String vlccLogo = 'assets/Group 763.png'; // Assuming logo
+  static const String vlccLogo = 'assets/Group 763.png'; 
   static const String dealImage1 = 'assets/New Deals.png';
   static const String splashBg =
-      'assets/New dashboard.png'; // Placeholder for now
+      'assets/New dashboard.png'; 
 }
