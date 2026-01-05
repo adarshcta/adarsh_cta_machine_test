@@ -12,8 +12,7 @@ class DealsPage extends StatefulWidget {
 }
 
 class _DealsPageState extends State<DealsPage> {
-  // Use post frame callback to fetch data if not already fetched,
-  // but since reusing provider, data might be there.
+  
   @override
   void initState() {
     super.initState();
@@ -48,7 +47,7 @@ class _DealsPageState extends State<DealsPage> {
             ),
           ),
         ),
-        leading: const SizedBox(), // Hide back button if any
+        leading: const SizedBox(), 
         leadingWidth: 0,
       ),
       body: Consumer<DealProvider>(
@@ -80,7 +79,7 @@ class _DealsPageState extends State<DealsPage> {
                 ),
                 const SizedBox(height: 16),
 
-                // Horizontal Featured List (Mocking different design for "Featured")
+                
                 SizedBox(
                   height: 140,
                   child: ListView.separated(
