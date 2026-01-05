@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../core/utils/constants.dart';
 import '../providers/deal_provider.dart';
-import '../widgets/custom_card.dart'; // Will create next
+import '../widgets/custom_card.dart'; 
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});
