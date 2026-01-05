@@ -27,7 +27,7 @@ class LocalDataSourceImpl implements LocalDataSource {
       subTitle: 'VLCC Qatar',
       description: 'Step into a world of confidence and care with VLCC.',
       imageUrl:
-          'assets/deal_vlcc_final.png', // Assuming this matches the face image
+          'assets/deal_vlcc_final.png', 
       originalPrice: 200,
       discountPrice: 170,
       expiryDate: 'Oct 30, 2025',
