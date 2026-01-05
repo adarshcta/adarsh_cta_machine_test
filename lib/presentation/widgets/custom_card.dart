@@ -84,7 +84,7 @@ class DealCard extends StatelessWidget {
                         topLeft: Radius.circular(16),
                         topRight: Radius.circular(
                           16,
-                        ), // Design has a curved overlap maybe, but keeping simple for now
+                        ), 
                       ),
                     ),
                     child: Text(
