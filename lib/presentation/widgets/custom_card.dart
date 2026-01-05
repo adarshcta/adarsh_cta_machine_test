@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/deal.dart';
 import '../../core/utils/constants.dart';
-import '../pages/deal_detail_page.dart'; // Will be created next
+import '../pages/deal_detail_page.dart'; 
 
 class DealCard extends StatelessWidget {
   final Deal deal;
