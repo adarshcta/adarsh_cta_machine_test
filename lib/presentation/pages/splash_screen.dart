@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../core/utils/constants.dart';
-import '../widgets/bottom_nav_bar.dart'; // Will be created next
+import '../widgets/bottom_nav_bar.dart'; 
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -30,8 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Random splash text or background logic can go here if needed.
-    // Requirement: "add a random splash screen that matches the theme and tone"
+
     final List<String> splashTexts = [
       "Welcome to Great Deals",
       "Exclusive Offers For You",
@@ -45,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Using a logo if available, else text
+           
             Image.asset(AppAssets.vlccLogo, height: 100), // Placeholder logo
             const SizedBox(height: 20),
             Text(
