@@ -1,0 +1,64 @@
+name: adarsh_cta_machine_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Functional Programming
+  dartz: ^0.10.1
+  
+  # Value Equality
+  equatable: ^2.0.5
+  
+  # Service Locator
+  get_it: ^7.7.0
+  
+  # Secure Storage
+  flutter_secure_storage: ^9.2.2
+  
+  # Fonts
+  google_fonts: ^6.2.1
+  
+  # Networking
+  dio: ^5.7.0
+  
+  # Formatting
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/logo_partner_1.png
+    - assets/logo_partner_2.png
+    - assets/logo_footer_1.png
+    - assets/news_1.png
+    - assets/news_2.png
+    - assets/news_3.png
+    - assets/deal_vlcc_final.png
+    - assets/deal_vlcc_v3.png
+    - assets/dashboard_banner.png
+    - assets/deal_snoonu.png
+    - assets/deal_stk.png
+    - assets/deal_waterpark.png
+    - assets/cat_hotels.png
+    - assets/cat_dining.png
+    - assets/cat_travel.png
+    - assets/cat_ent.png
